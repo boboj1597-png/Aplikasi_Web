@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           <Navbar />
           <main className="main-content">{children}</main>
           <footer className="footer">
-            <p>© 2024 Task Manager. Dibuat dengan Next.js, Redux & Prisma.</p>
+            <p>© 2025 Task Manager. Dipake dengan Next.js, Redux & Prisma.</p>
           </footer>
         </ReduxProvider>
       </body>
