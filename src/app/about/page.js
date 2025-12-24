@@ -69,12 +69,12 @@ export default function AboutPage() {
                     <h2 className="section-title">Video Penjelasan</h2>
                     <p className="section-text">Video penjelasan aplikasi:</p>
                     <div className="video-container">
-                        {/* Ganti placeholder ini dengan iframe video */}
-                        <div className="video-placeholder">
-                            <div className="placeholder-icon">🎬</div>
-                            <h3>Tempat Embed Video</h3>
-                            <p>Video penjelasan akan ditampilkan di sini.</p>
-                        </div>
+                        <iframe
+                            src="https://drive.google.com/file/d/1WYvxUKP3gTfqU5IFSgkKbhlQweF-ICd-/preview"
+                            title="Video Penjelasan Task Manager"
+                            allow="autoplay"
+                            allowFullScreen
+                        ></iframe>
                     </div>
                 </section>
             </div>
