@@ -1,4 +1,4 @@
-// Layout utama aplikasi - membungkus semua halaman
+// membungkus semua halaman
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ReduxProvider from "@/store/provider";
@@ -17,11 +17,11 @@ const geistMono = Geist_Mono({
 
 // Metadata untuk SEO
 export const metadata = {
-  title: "Task Manager - Kelola Tugas Anda",
+  title: "Task Manager atau Kelola Tugas",
   description: "Aplikasi pengelola tugas dengan Next.js, Redux, dan Prisma",
 };
 
-// Komponen RootLayout
+// Komponen Rootlayout
 export default function RootLayout({ children }) {
   return (
     <html lang="id">

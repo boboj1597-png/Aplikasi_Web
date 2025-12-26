@@ -1,26 +1,17 @@
-// Ini adalah file schema Prisma
-// Dokumentasi: https://pris.ly/d/prisma-schema
-
-// Generator untuk membuat Prisma Client
-// Output akan disimpan di folder src/generated/prisma
 generator client {
   provider = "prisma-client-js"
 }
 
-// Konfigurasi database SQLite
-// File database disimpan di prisma/dev.db
 datasource db {
   provider = "sqlite"
   url      = "file:./dev.db"
 }
 
-// Model Task untuk menyimpan data tugas
-// Setiap task memiliki id, judul, deskripsi, status selesai, dan timestamp
 model Task {
-  id          Int      @id @default(autoincrement()) // Primary key auto-increment
-  title       String                                  // Judul tugas (wajib diisi)
-  description String?                                 // Deskripsi tugas (opsional)
-  completed   Boolean  @default(false)                // Status selesai, default false
-  createdAt   DateTime @default(now())                // Waktu dibuat, otomatis
-  updatedAt   DateTime @updatedAt                     // Waktu diupdate, otomatis
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String?
+  completed   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 }

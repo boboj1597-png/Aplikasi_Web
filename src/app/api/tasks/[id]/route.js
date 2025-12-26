@@ -1,8 +1,8 @@
-// API Route: PUT dan DELETE task by ID
+// PUT dan DELETE task by ID
 import { NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
 
-// PUT - Update task
+// Update task
 export async function PUT(request, { params }) {
     try {
         const { id } = await params;
@@ -34,7 +34,7 @@ export async function PUT(request, { params }) {
     }
 }
 
-// DELETE - Hapus task
+// Hapus task
 export async function DELETE(request, { params }) {
     try {
         const { id } = await params;

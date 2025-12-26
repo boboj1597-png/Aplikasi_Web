@@ -12,8 +12,8 @@ export default function AboutPage() {
                 <section className="about-section">
                     <h2 className="section-title">Apa itu Task Manager?</h2>
                     <p className="section-text">
-                        Task Manager adalah aplikasi web untuk membantu mengelola tugas sehari-hari.
-                        Dengan aplikasi ini, pengguna dapat dengan mudah menambah, menghapus, dan menandai tugas sebagai selesai.
+                        Task Manager artinya aplikasi web untuk membantu mengelola tugas sehari-hari.
+                        Dengan karenanya, pengguna dapat dengan mudah menambah, menghapus, dan menandai tugas sebagai selesai.
                     </p>
                 </section>
 
@@ -52,9 +52,9 @@ export default function AboutPage() {
                     </ul>
                 </section>
 
-                {/* Teknologi */}
+                {/* Modul */}
                 <section className="about-section">
-                    <h2 className="section-title">Teknologi</h2>
+                    <h2 className="section-title">Teknologi-Beberapa modul</h2>
                     <div className="tech-grid">
                         <div className="tech-card"><h3>Next.js 14</h3><p>Framework React dengan App Router</p></div>
                         <div className="tech-card"><h3>React Hooks</h3><p>useState, useEffect, useSelector</p></div>

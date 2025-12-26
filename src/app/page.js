@@ -8,7 +8,7 @@ export default function Home() {
     <div className="home-page">
       {/* Header */}
       <section className="hero-section">
-        <h1 className="hero-title">Kelola Tugas Anda</h1>
+        <h1 className="hero-title">Kelola Tugas</h1>
         <p className="hero-subtitle">Tambah, kelola, dan selesaikan tugas dengan mudah</p>
       </section>
 

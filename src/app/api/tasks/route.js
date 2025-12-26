@@ -1,8 +1,8 @@
-// API Route: GET dan POST tasks
+// GET dan POST tasks
 import { NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
 
-// GET - Ambil semua tasks
+// Ambil semua tasks
 export async function GET() {
     try {
         const tasks = await prisma.task.findMany({
@@ -15,7 +15,7 @@ export async function GET() {
     }
 }
 
-// POST - Tambah task baru
+// Tambah task baru
 export async function POST(request) {
     try {
         const { title, description } = await request.json();
